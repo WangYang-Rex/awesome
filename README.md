@@ -1,28 +1,8 @@
-2024 已经到来，在 Web 前端这个岗位已经工作 6 年。这里将 2023 的学习内容做一些总结，并规划一下 2024 的学习计划。
-
-## 历年技能树
-
-[2019 年前端总结](https://juejin.cn/post/6844904038543130632#heading-2) 的年度关键词分为创新和实践两个部分，其中创新的关键词是「UI 框架 / 脚手架」和「低代码（Low Code）」，实践的关键词是「桌面端」。这一年在通用基础设施建设上获得了很多开发经验。如下所示，标红的部分是有所接触或深入的部分：
-
-![image](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/574d98b0cb80459194c9b65178d690fe~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1512&h=2206&s=1078346&e=png&b=fefefe)
-
-[2021 年](https://juejin.cn/post/7069468539412807693)涉及内容包括 RxJS 响应式设计实践和原理解析（主要针对客户端的 IM 和通讯录）、CDP 调试协议感性认知、微前端业务实践以及 V8 编译原理认知等。如下所示，标绿的部分是有所接触或深入的部分：
-
-![image](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f7cc899d3de642b388a823cd6d9e6231~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1512&h=4745&s=2175606&e=png&b=fefefe)
-
-[2022 年度总结](https://juejin.cn/post/7188890491188936762)深入研究了微前端的原理基础，额外衍生学习了 Chromium 和 V8 的一些基础知识。在 CDP 调试协议上研究了 Android 的 ADB 转发设计，在跨端方面则实现了在 Android 中嵌入 JS 引擎并实现桥接 Binding 设计，在 VS Code 的扩展上则设计实现了相应的 Devops 工具。这一年学习的内容相对深入和复杂，而且对 Java 和 C++ 等其它语言提出了要求。如下所示，标黄的部分是有所接触或深入的部分：
-
-![image](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9062774636b84e01865fcc45fa227764~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1512&h=5976&s=3490343&e=png&b=fefcfc)
-
-以下给出学习过程中的粗略思维导图整理：
-
-![image](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2fbfe9a58c834aa5847c7ab256dce482~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1512&h=2979&s=1644976&e=png&b=f0f0f0)
-
-> 温馨提示：如果需要 XMind 原版，可以下载 [2022 / Xmind](https://github.com/ziyi2/annual-review/tree/2022/2022/xmind) 文件。
+2024 已经到来，在 Web 前端这个岗位已经工作 10 年。这里将 2023 的学习内容做一些总结，并规划一下 2024 的学习计划。
 
 ## 2023 技能树
 
-2023 年因为大部分时间在撰写《深入浅出微前端》小册，总体在技术上没有得到什么体系化的成长，虽然接触了一些其它领域，例如鸿蒙（ArkTS 和方舟编译器）、微服务（Spring Cloud、Nacos）和 AI（ChatPT）等，但都停留在认知和间接使用的层面，没有业务实践。2023 年的技能树如下所示，标蓝的部分是有所接触或深入的部分：
+2023 年的技能树如下所示，标蓝的部分是有所接触或深入的部分：
 
 ![image](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6af8c1c3b9724e01a80715fd4efcf865~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1851&h=10000&s=2624553&e=png&b=fefdfd)
 
@@ -30,31 +10,7 @@
 
 ![image](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9b12afbab8dc44d68ef0b4064f213854~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=2263&h=9288&s=2831517&e=png&b=f0f0f0)
 
-> 温馨提示：如果需要 XMind 原版，可以下载 [2023 / Xmind](https://github.com/ziyi2/annual-review/tree/2023/2023/xmind) 文件。
-
 ## 2023 学习情况
-
-2023 年整体上没有 2022 年专注，学习的内容也相对细琐。首先对 2022 年提到的 2023 学习计划进行一个总结，如下所示：
-
-| **方向** | **细分** | **计划** | **优先级** | **完成情况** |
-| - | - | -| - | - |
-| Chromium 基础 | 架构 | DOM 渲染原理了解 | 低 | 未完成 |
-| Chromium 基础 | V8 | C++ 绑定技术深入并实现 Demo | 高 | 完成 |
-| Chromium 基础 | V8 | 断点调试原理 | 中 | 完成 |
-| Chromium 基础 | Blink | 任务调度（Event Loop 原理） | 中 | 完成 |
-| 微前端 | 隔离技术 | 各种隔离技术深入 & SES 可行性分析 | 高 | 完成 |
-| 微前端 | 方案设计 | 各种方案技术深入 & Demo 实现 | 高 | 完成 |
-| 微前端 | 方案设计 | 基于 Web Components 的设计 Demo 实现 | 高 | 完成 |
-| Chrome DevTools | CDP 协议 | 捕捉分析 & 移动端调试模拟页面 | 高 | 未完成 |
-| Chrome DevTools | Frontend | 定制 & 扩展调试面板 | 高 | 未完成 |
-| Chrome DevTools | Backend | Mock 脚本原理分析 & 定制 | 高 | 未完成 |
-| Chrome DevTools | 消息通道 | ADB 无线通信 & WebSocket 服务 | 高 | 未完成 |
-| 跨端 | JS 引擎 | Andriod & iOS 嵌入 & 异步绑定技术 | 高 | 未完成 |
-| 跨端 | JS 引擎 | Andiroid & iOS 绑定接口实现 | 高 | 未完成 |
-| 跨端 | WebAssembly | Andiroid & iOS 异步绑定实现 | 低 | 未完成 |
-| 跨端 | 框架 | 跨端框架 UI 绑定 & 渲染深入 | 低 | 未完成 |
-
-由于工作业务上的变动，在 Chrome DevTools 和跨端侧没有再做一些深入研究。除此之外，由于 2022 年萌生了写一本微前端小册的想法，因此在 Chromium 和 V8 基础知识上做了更多深入研究，为小册的理论撰写奠定了基础。当然，今年在服务端技术方向上做了倾斜，更多的想往全栈的方向去靠。
 
 ### AI 学习
 
@@ -74,59 +30,6 @@ Open AI 能够提升开发者的生产力，也能快速提高学习的认知力
 对于 AI 仅仅停留在认知和简单的使用层面，没有参与到实际的业务开发中，这一块事实上是自己落后的原因，如果自己早早进入布局，或许可以在之前的扩展框架对应的 VS Code 扩展 DevOps 开发工具上进行 AI 能力的集成，从而助力扩展业务的智能化开发，希望 2024 能够让自己在这一块有所研究和产出。
 
 除此之外，推荐大家使用 Github Copilot & GIthub Copilot Chat（VS Code 插件）来提升编码效率，它可以智能的创建代码、补全代码、优化代码、分析源码以及快速提供配置解决方案等。当然，如果你会频繁撰写开发和技术相关的文档，特别推荐使用[钉钉的魔法棒](https://alidocs.dingtalk.com/i/p/Pl2AmoVbakq8Xdb9BpLmk7jYdkVEvm2g)功能，它可以非常智能的协助你完成文档设计（文案创作、大纲生成、语气润色、竞品分析等）。
-
-### Chromium 基础学习
-
-| **方向** | **细分** | **学习内容** |
-| - | - | - |
-| Chromium 基础 | 进程 | 进程间通信 Mojo & IPC |
-| Chromium 基础 | 进程 | Threading And Tasks 感性认知、The Anatomy of a Frame |
-| Chromium 基础 | Network | Chromium Network 源码运行分析 |
-| Chromium 基础 | HTTP 缓存 | 缓存源码运行分析 |
-| Chromium 基础 | V8 | Context 上下文（Window ）创建源码分析 |
-| Chromium 基础 | V8 | 动态库 & 静态库编译（depot_tools、GN、gclinet、ninja） |
-| Chromium 基础 | V8 | C++ 嵌入设计 & Context 切换（g++ 编译、cmake 编译套件） |
-| Chromium 基础 | V8 | V8 的概念（Isolate、Handle & Context） |
-| Chromium 基础 | V8 | 断点调试源码分析（chill 为什么不支持源码调试） |
-| Chromium 基础 | V8 Binding | Web IDL 标准感性认知 |
-| Chromium 基础 | CEF 框架 | 多进程运行示例（分离子进程执行体） |
-| Chromium 基础 | CEF 框架 | Web 应用 JS Binding 设计 |
-
-早期学习 Chromium 基础知识是因为在业务上需要设计跨端扩展框架，用于实现三方 JS 在 PC、Andriod & iOS 中的跨端 Runtime 设计，需要给三方 JS 运行时桥接 APP 底座的通用能力（例如 HTTP 请求、APP 弹框、新开 WebView 容器页面等），从而实现更加深层次的定制化扩展。为此，重点研究了运行 JS 所需要具备的 JS 引擎（为了提升轻量运行时的性能，甚至调研了 WebAssembly 的运行时能力）、JS 引擎在 Chromium 的渲染引擎、APP 中的运行机制以及分发 JS 需要具备的离线化能力等。因此在 Chromium 和 V8 层面做了一些深入调研，包括 Web API 的绑定设计、V8 在 C++ 中的嵌入、APP 内置语言（例如 Java 和 Objective-C）和 C++ 的相互操作、V8 实例和上下文的创建、V8 的编译、隔离、嵌入实践等。当然，仅仅运行 JS 还不够，还需要考虑 APP 如何将 [CDP 调试协议](https://chromedevtools.github.io/devtools-protocol/)透传到 VS Code 扩展开发工具上，支持扫码调试或者目标发现等，从而使得跨端扩展框架具备完整的 Devops 能力。
-
-现在学习 Chromium 基础知识用于了解浏览器底层的运行原理，从而为撰写《深入浅出微前端》小册提供更为详细的理论基础，例如 V8 隔离和 iframe 运行机制等，使大家可以知其然并知其所以然。
-
-> 温馨提示：由于 Chromium 的知识体系非常庞大，因此很难由点到面。如果有业务或者 Demo 实践，最好是基于实践进行学习，例如基于 [CEF](https://github.com/chromiumembedded/cef) 进行桌面端应用的混合开发设计，通过实践可以高效加深整个底层的学习。
-
-### 微前端小册
-
-| **方向** | **细分** | **学习内容** |
-| - | - | - |
-| 微服务 | 感性认知 | Nacos、Diamond、 Spring Cloud、Spring Cloud Alibaba、Spring Cloud Netflix Eureka（服务注册和发现）、HSF（High-Speed Service Framework）、RPC、SSO 单点登录原理 |
-| Web 基础 | 构建工具 | Webpack 编译产物模块化 & import()运行时原理、Vie 原理解析 |
-| Web 基础 | React | React Schedule 原理、React-router 原理 |
-| 微前端小册 | 方案示例 | 动态 Script、Web Components 以及 iframe 等方案的示例设计 |
-| 微前端小册 | 隔离原理 | 隔离技术示例设计（V8 Isolate & Context 隔离、iframe 隔离、Shadow DOM 隔离、Mock 隔离等） |
-| 微前端小册 | 性能优化 | 性能优化示例设计（HTTP 缓存标准解析、Resource Hints 、预渲染 & 预加载） |
-| 微前端小册 | 通信示例 | 观察者 & 发布订阅模式 |
-| 微前端小册 | 框架解析 | single-spa 示例设计（import()动态按需加载、NPM 、动态 Script  & Fetch） |
-| 微前端小册 | 框架解析 | single-spa 原理解析（状态机运行机制） |
-| 微前端小册 | 框架解析 | qiankun 原理解析（基于 single-spa 的隔离和 html-entry 设计） |
-| 微前端小册 | 工程化 | 构建、按需加载、版本发布、ESLint、Prettier、提交规范、更新日志、静态文档、CI / CD、README 说明等 |
-
-2023 年 8 月正式在掘金平台发布了[《深入浅出微前端》](https://juejin.cn/book/7258893482318626868?utm_source=profile_book)小册，并获得了[掘金 2023 年度畅销好课](https://activity.juejin.cn/rank/2023/influence#course)。在撰写微前端小册的前期调研了大量的理论基础，包括 Chromium 知识体系（整体框架、运行机制、V8 的编译 & 运行 & 概念、其它局部知识体系）和微服务架构体系等。在真正撰写时，还研究了很多工程化的原理、Webpack 编译产物运行时原理、React Schedule 原理以及社区的微前端框架原理等，用于加强整个小册的深度和通用性设计。2024 年在小册的撰写方面，会从理论和通用性建设转移到社区框架解析和业务实践部分，从而使大家可以对微前端在业务层面的设计更加清晰。
-
-为了使大家更好的了解微前端的知识体系，我还在冴羽的好青年社区群做了一次[《深入浅出沙箱隔离》的技术分享](https://juejin.cn/book/7258893482318626868/section/7300853723612315686)，感兴趣的同学可以私信获取分享视频和 PPT。2024 年也会做更多的微前端技术分享，从而通过视频使大家能够更加直观的了解微前端知识体系。
-
-### Svelte 技术
-
-| **方向** | **细分** | **学习内容** |
-| - | - | - |
-| Svelte Web 框架 | 基础认知 | Virtual DOM vs No Virtual DOM、JSX vs Template & Logic Block |
-| Svelte Web 框架 | 产物运行时原理 | 整体运行流程、脏值检测算法、响应式原理分析、JS Label 计算属性原理分析、异步队列分析 |
-| Svelte Web 框架 | 编译原理 | Parsing source code into AST（AST 解析）、Tracking references and dependencies（响应式依赖遍历收集）、Creating code blocks and fragments（生成 instance 和 create_fragment）、Generage code（生成运行时代码） |
-
-[Svelte](https://svelte.dev/) Web 框架是对内部某个静态官网设计所做的技术选型，配合 [Tailwind CSS](https://tailwindcss.com/) 进行设计整体上而言使得构建的产物 Size 非常小，适合设计一些需要考虑页面性能的静态网站。除此之外，Svelte 本质上是一个编译器，编译后具备少量的通用运行时代码，拥有完备的 AOT 意图优化能力。关于 Svelte、Vue 和 React 的差异（例如 JSX vs Template & Logic Block、Vitrual DOM vs No Virtual DOM、React Hook & Class Constructor），在**冴羽**的社区群做了一次[《深入浅出 Svelte》的技术分享](https://juejin.cn/book/7258893482318626868/section/7300853723612315686)，感兴趣的同学可以私信获取分享视频和 PPT。
 
 ### Docker 技术
 
@@ -149,7 +52,7 @@ Docker 主要用于前端静态资源的运维，分为镜像制作（利用 Nod
 | 学习 & 工作提效 | 终端 | iTerm2、ohmyzsh、zplug、ohmyzsh 插件、powerlevel10k 主题 |
 | 学习 & 工作提效 | VS Code 编程 | Github Copilot、GIthub Copilot Chat、IntelliCode、Tailwind CSS IntelliSense |
 
-由于受到了 AI 降维打击的刺激，决定提升一下自己的工作和学习效能，从各个快捷键、App、终端配置、AI 编程等方面对自己进行了提效升级，相应的教程放在了微前端小册的[番外篇](https://juejin.cn/book/7258893482318626868/section/7292031353426542619)。其中，感觉最能提效的是 [Raycast](https://www.raycast.com/)，它具备了 Quicklinks、Extensions、Script Command 以及快捷键设置等诸多能力，当然个人现在用的还比较浅，如下所示：
+由于受到了 AI 降维打击的刺激，决定提升一下自己的工作和学习效能，从各个快捷键、App、终端配置、AI 编程等方面对自己进行了提效升级。其中，感觉最能提效的是 [Raycast](https://www.raycast.com/)，它具备了 Quicklinks、Extensions、Script Command 以及快捷键设置等诸多能力，当然个人现在用的还比较浅，如下所示：
 
 ![image](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/7a577f5eefbb4c7ca52c12ab70b8f6f2~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=2748&h=1740&s=19003770&e=png&b=9e3efe)
 
@@ -157,35 +60,20 @@ Docker 主要用于前端静态资源的运维，分为镜像制作（利用 Nod
 
 ## 2024 学习计划
 
+期望24年在服务端技术(Node.js)方向上做倾斜，更多的往全栈(Next.js)的方向去靠。
+
 通过 2023 以及往年的技术总结，我发现个人比较感兴趣并且可以深入的技术包括以下几块：
 
 | **内容** | 学习优先级 | **说明** |
 | - | - | - |
-| Parse 解析 | 低 | 例如 ESLint 和 Svelte 的解析设计等，但是没有实际的业务开发需要，所以一直没有机会研究，如果大家有一些好的 idea 和业务开发经验可以分享一下，例如低代码和 Pro Code 的互相转换，可能会需要使用解析器的设计 |
 | SSR CSR & ESR | 高 | 虽然早期使用过 [Nuxt](https://nuxt.com/)，但是基本上已经忘记了 SSR 的同构原理，说明学习的还不够深入和全面，同时对 [Next.js](https://nextjs.org/) 以及 [Vercel](https://vercel.com/) 非常感兴趣，希望有时间可以利用 Next.js 以及相应的服务技术重新打造一个全新的博客站点 |
-| 微服务架构 | 高 | Spring Cloud 和 Nacos 的了解以及微服务架构的认知，希望能在业务层面参与其中的一个 Java 微服务的设计，从而可以深入理解服务发现、配置管理、API 网关、消息队列、容器化和编排技术（Docker & K8S）、服务间通信（HSF、gRPC & GraphQL）等后端技术 |
-| Chromium 渲染引擎 | 中 | 深入了解 CSS、DOM 的运行原理以及页面渲染的实现细节，配合 V8 全面了解 Chromium 底层的运行机制。当然最好是能通过业务进行实践，例如可以借助 CEF 桌面端混合开发深入了解 Chromium 架构以及 C++, 或者也可以从小程序的双线程通信原理（渲染现场和 JS 线程通信）入手，了解小程序的运行机制和小程序 IDE 的 CDP 调试原理。 |
+| Docker 技术 | 高 | Docker 主要用于前端静态资源的运维，分为镜像制作（利用 Node.js 聚合产物并设定 Niginx 运维配置）和容器运行时的 Nginx 静态服务启动 |
 | AI Agent | 高 | 通过 Embeddings 嵌入技术或者 Fine-tuning 微调模型来训练个人的博客数据、聊天数据、健康数据等，打造个人的 AI 数字 IP（AI 智能体） |
 | React 框架原理 | 低 | React 完整的原理分析、React 新语法特性 |
 
 通过 2023 年以及往年的技术栈总结可以发现，自身学习的内容越来越碎片化，越来越难形成体系化的沉淀。如果没有业务需要，学习和技术的深入只会让自身知识面接收频率越来越低，并且学习效率越来越低。
 
-2024 年不希望自己在技术深度上继续挖掘，除非是业务和小册撰写需要，更希望在广度上能够全面发展，因此希望自己往全栈的技术和业务方向去深入，包括 SSR 的原理解析、Next.js 的使用和微服务架构的认知，希望有机会可以实践一个微服务应用。
-
-> 温馨提示：今年在服务端方向上进行了初步探索，原本想在微前端和微服务架构的基础上实现一个服务端应用，专门用于页面渲染、SSO 认证、前端 Diamond 配置和服务请求包装（类似于 BFF）等，但是由于种种现实问题最终没能落地，希望明年可以落地一个 Java 微服务应用（哪怕只是一个 Demo 示例），可以完整实现该功能。
-
-## 2024 写作计划
-
-2023 年因为忙于写小册基本上没有产出文章，这里罗列出 2024 年待写的文章：
-
-- Svelte 框架技术（编译 & 运行时原理、框架竞品分析）
-- 沙箱隔离技术（Chromium 站点隔离、操作系统沙箱、Linux 容器技术等）
-- V8 系列（绑定技术、Web DSL、断点调试原理）
-- Chrome DevTools （CDP 调试原理、Android ADB 调试转发 & 无线调试技术）
-- RxJS（深入浅出 RxJS 原理 & IM 开发实践）
-- WebAssembly 系列（C++ 嵌入示例、异步调用实现、绑定技术）
-- VS Code 扩展开发指南（工程化内容、IDE 能力调用等）
-- 面试系列（React 原理、微前端原理、工程化原理、混合开发等）
+2024 年不希望自己在技术深度上继续挖掘，除非是业务和小册撰写需要，更希望在广度上能够全面发展，因此希望自己往全栈的技术和业务方向去深入，包括 SSR 的原理解析、Next.js 的使用。
 
 ## 2023 书签
 
