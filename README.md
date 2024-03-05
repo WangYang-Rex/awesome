@@ -225,6 +225,7 @@ Docker 主要用于前端静态资源的运维，分为镜像制作（利用 Nod
 - [How Blink works](https://docs.google.com/document/d/1aitSOucL0VHZa9Z2vbRJSyAIsAz24kX8LFByQ5xQnUg/edit#heading=h.v5plba74lfde)
 - [event-loop](https://github.com/atotic/event-loop)
 ### TypeScript
+- [TypeScript 教程](https://wangdoc.com/typescript/)
 - [Centralized Recommendations for TSConfig bases](https://github.com/tsconfig/bases)
 - [TypeScript](https://www.typescriptlang.org/)
 - [深入理解 TypeScript](https://jkchao.github.io/typescript-book-chinese/)
@@ -235,6 +236,9 @@ Docker 主要用于前端静态资源的运维，分为镜像制作（利用 Nod
 - [TS 常见问题整理（60 多个，持续更新 ing）](https://juejin.im/post/5e33fcd06fb9a02fc767c427)
 - [使用 TypeScript 装饰器装饰你的代码](https://juejin.im/post/5d15e13fe51d45108f254242)
 ### JavaScript
+- [Clean Code JavaScript](https://github.com/ryanmcdermott/clean-code-javascript)
+- [You don’t know JS Yet 2nd Edition](https://github.com/getify/You-Dont-Know-JS/tree/2nd-ed)
+- [Eloquent JavaScript](https://eloquentjavascript.net/)
 - [使用 requestIdleCallback](https://developer.chrome.com/blog/using-requestidlecallback?hl=zh-cn#using-requestidlecallback-to-make-dom-changes)
 - [browsing-context](https://www.w3.org/html/wg/spec/browsers.html#browsing-context)
 - [深入理解 JavaScript 执行上下文](https://segmentfault.com/a/1190000023216555)
@@ -356,8 +360,12 @@ Docker 主要用于前端静态资源的运维，分为镜像制作（利用 Nod
 - [\[译\] Web 流式文字排版的现状](https://juejin.im/post/5d267d9de51d45773d4686ab)
 - [真正了解 CSS3 背景下的@font face 规则](https://www.zhangxinxu.com/wordpress/2017/03/css3-font-face-src-local/) (张鑫旭)
 - [Web 字体简介: TTF, OTF, WOFF, EOT & SVG](https://zhuanlan.zhihu.com/p/28179203)
-### React
+### Next 全栈框架
 - [Next.js](https://nextjs.org/docs/getting-started/installation)
+- [Nextjs全栈详细开发教程，完整版 重要](https://juejin.cn/post/7203180600818581563)
+- [Next.js 完全手册](https://www.freecodecamp.org/chinese/news/the-next-js-handbook/)
+### React
+- [【脚手架】从0到1搭建React18+TS4.x+Webpack5项目（一）项目初始化](https://juejin.cn/post/7203169721839042615)
 - [手摸手实现 react-router](https://yingchenit.github.io/react/react-router/#%E5%89%8D%E7%AB%AF%E8%B7%AF%E7%94%B1%E5%88%9D%E8%AE%A4%E8%AF%86)
 - [从路由原理出发，深入阅读理解 react-router 4.0 的源码](https://github.com/forthealllight/blog/issues/26)
 - [前端路由实现与 react-router 源码分析](https://976500133.gitbooks.io/frontendbook/content/react/js-react-router.html)
@@ -421,6 +429,7 @@ Docker 主要用于前端静态资源的运维，分为镜像制作（利用 Nod
 - [\[译\] 2019 React Redux 完全指南](https://juejin.im/post/5cac8ccd6fb9a068530111c7)
 - [掘金最污的 React16.x 图文视频教程(2 万 5 千字长文-慎入)](https://juejin.im/post/5d085be0f265da1bac401937)
 ### Vue
+- [【Vue3】保姆级毫无废话的进阶到实战教程 - 01](https://juejin.cn/post/7277089907973603388)
 - [尤雨溪 - 在框架设计中寻求平衡 | JSConf.Asia 2019](https://www.bilibili.com/video/av80042358/)
 - [vue-markdown-loader](https://github.com/QingWei-Li/vue-markdown-loader)
 - [vitepress](https://github.com/vuejs/vitepress)（静态文档生成）
